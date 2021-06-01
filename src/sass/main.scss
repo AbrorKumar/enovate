@@ -1,0 +1,449 @@
+body{
+  background:gray !important  ;
+}
+.container-fluid {
+  padding-left: 0px !important;
+  position: absolute;
+
+  .row {
+    //********NAVIGATION BAR**********
+    .navIgation {
+      margin-left: 1.5px;
+      position: fixed;
+      background-image: linear-gradient(to right, #1F1C2C, #928DAB);
+
+      a {
+        text-decoration: none;
+        color: white;
+
+        &:hover {
+          color: black;
+        }
+
+        .navigationBarBurger {
+          padding: 10px 0px;
+          width: 100%;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+
+          img {
+            width: 53px;
+            height: 61px;
+            margin-left: 26px;
+          }
+        }
+      }
+
+      .navbarText {
+        width: 100%;
+        height: 100vh;
+        padding: 0 15px;
+        .lineEnova {
+          border-bottom: 1.5px solid #5dd600;
+        }
+
+        button {
+          border-radius: 36px;
+          border: 2px solid #5dd600;
+          color: #5dd600;
+          font-size: 20px;
+          margin-top: 9px;
+
+          &:hover {
+            color: white;
+            border: 3px solid white;
+            transition: .2s ease-in-out;
+
+          }
+
+          span {
+            margin-left: 10px;
+
+          }
+
+        }
+
+        .navigationBarIcon {
+          padding-top: 15px;
+
+          a {
+            text-decoration: underline;
+
+          }
+        }
+      }
+
+      .est {
+        padding-top: 367px;
+        padding-bottom: 17px;
+
+
+        p {
+          color: #5dd600;
+          margin-bottom: 20px;
+
+        }
+      }
+    }
+
+    //  **************COL-10 BACKGROUND*****
+    .backcircle {
+      padding-bottom: 120px;
+      font-weight: bolder;
+      font-size: 20px;
+      .circle {
+        border: 3px solid #fff;
+        width: 425px;
+        background-color: #5dd600;
+        padding: 97px;
+        border-radius: 50%;
+        margin: 16% 39%;
+
+        .animScrol {
+          animation: scrldown 1s ease-in-out infinite;
+          z-index: 1;
+          @keyframes scrldown {
+            0%, 100% {
+              -webkit-transform: translateY(-8px);
+              -ms-transform: translateY(-8px);
+              transform: translateY(-8px);
+            }
+
+            50% {
+              -webkit-transform: translateY(8px);
+              -ms-transform: translateY(8px);
+              transform: translateY(8px);
+            }
+          }
+        }
+      }
+    }
+
+    //************COL-10 ABOUT PAGE
+    .about {
+      height: 950px;
+      padding-top: 110px;
+      position: relative;
+
+      .row {
+        .lineWhite {
+          position: absolute;
+          top: 84px;
+          left: 0px;
+          border-bottom: 1px solid black;
+          width: 91%;
+
+          .iconAbout {
+            position: absolute;
+            right: -79px;
+            top: -33px;
+            width: 150px;
+            padding: 15px;
+            background-color: white;
+            border-radius: 25px;
+            border: 2px solid gray;
+
+
+            p {
+              font-size: 20px;
+            }
+          }
+        }
+
+        h1 {
+          font-size: 1.875rem;
+          line-height: 1.5;
+          margin-top: 118px;
+        }
+
+        .col-6 {
+          font-size: 1.125rem;
+          line-height: 1.7;
+        }
+
+        .brandImages {
+          padding-top: 100px;
+          width: 500px;
+
+          img {
+            width: 118px;
+            height: 72px;
+          }
+        }
+      }
+    }
+  }
+
+  //**************TEAM PAGE***********
+  .team {
+    padding-top: 100px;
+    position: relative;
+
+    .teamRow {
+      .lineWhite2 {
+        position: absolute;
+        top: 84px;
+        left: 0px;
+        border-bottom: 1px solid black;
+        width: 91%;
+
+        .iconAbout2 {
+          position: absolute;
+          right: -79px;
+          top: -33px;
+          width: 150px;
+          padding: 15px;
+          background-color: white;
+          border-radius: 25px;
+          border: 2px solid gray;
+
+          p {
+            font-size: 20px;
+          }
+        }
+      }
+
+      .teamCol {
+        margin-top: 40px;
+
+        .picturesCircle {
+          cursor: pointer;
+          font-size: 20px;
+          color: white;
+          img {
+            border-radius: 50%;
+            width: 100%;
+
+            &:hover {
+              border: 5px solid #5dd600;
+              transition: .2s ease-in-out;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //  **********WHAT WE DO**************
+  .whatwedo {
+    margin-top: 100px;
+    padding-top: 180px;
+    padding-bottom: 100px;
+
+    .whatwedoRow {
+      position: relative;
+
+      .lineWhite3 {
+        position: absolute;
+        top: -103px;;
+        left: 0px;
+        border-bottom: 1px solid black;
+        width: 91%;
+
+        .iconAbout3 {
+          position: absolute;
+          right: -79px;
+          top: -33px;
+          width: 179px;
+          padding: 15px;
+          background-color: white;
+          border-radius: 25px;
+          border: 2px solid gray;
+
+          p {
+            font-size: 20px;
+          }
+        }
+      }
+
+      h1 {
+        span {
+          text-decoration: underline;
+          color: white;
+
+          &:hover {
+            color: #5dd600;
+          }
+        }
+      }
+    }
+  }
+
+  //  ***********SPECIALMS*********
+  .specialisms {
+    .specialismsRow {
+      position: relative;
+
+      .lineWhite4 {
+        position: absolute;
+        top: 45px;
+        left: 0px;
+        border-bottom: 1px solid black;
+        width: 91%;
+
+        .iconAbout4 {
+          position: absolute;
+          right: -79px;
+          top: -33px;
+          width: 179px;
+          padding: 15px;
+          background-color: white;
+          border-radius: 25px;
+          border: 2px solid gray;
+
+          p {
+            font-size: 20px;
+          }
+        }
+      }
+
+      .lineGreen {
+        height: 2px;
+        background-color: #5dd600;
+        width: 460px;
+      }
+
+      .tog {
+        .butTogler {
+          background-image: linear-gradient(to right, #8A2387, #E94057, #f27121);
+
+          font-weight: bolder;
+          font-size: 20px;
+          color: white;
+          padding: 20px 0px;
+          border-radius: 30px;
+
+          &:hover {
+            transition: ease-in 0.5s;
+            box-shadow: inset 0 100px 0 0 #89216B;
+          }
+        }
+
+        .readMoreButton {
+          padding: 9px 61px;
+          border-radius: 38px;
+          font-weight: bolder;
+
+        }
+      }
+    }
+  }
+
+  //  ****************SLIDER*************
+  .imageSlider {
+    position: relative;
+
+    .slider {
+      position: relative;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .lineWhite5 {
+      position: absolute;
+      top: 45px;
+      left: 0px;
+      border-bottom: 1px solid black;
+      width: 91%;
+
+      .iconAbout5 {
+        position: absolute;
+        right: -79px;
+        top: -33px;
+        width: 179px;
+        padding: 15px;
+        background-color: white;
+        border-radius: 25px;
+        border: 2px solid gray;
+
+        p {
+          font-size: 20px;
+        }
+      }
+    }
+
+    .image {
+      width: 1000px;
+      height: 600px;
+      border-radius: 10px;
+    }
+
+    .right-arrow {
+      position: absolute;
+      top: 50%;
+      right: 161px;
+      font-size: 3rem;
+      color: white;
+      z-index: 10;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .left-arrow {
+      position: absolute;
+      top: 50%;
+      left: 161px;
+      font-size: 3rem;
+      color: white;
+      z-index: 10;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .slide {
+      opacity: 0;
+      transition-duration: 1s ease;
+    }
+
+    .slide.active {
+      opacity: 1;
+      transition-duration: 1s;
+      transform: scale(1.08);
+    }
+
+  }
+
+  .gettouch {
+    height: 50vh;
+
+    .getRow {
+      .col-2 {
+        margin-top: 150px;
+
+        .flex-column {
+          button {
+            border-radius: 36px;
+            border: 2px solid #5dd600;
+            color: #5dd600;
+            font-size: 20px;
+            padding: 13px 20px;
+            width: 315px;
+            &:hover {
+              color: white;
+              border: 3px solid white;
+              transition: .2s ease-in-out;
+            }
+
+            span {
+              margin-left: 10px;
+            }
+          }
+          a{
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
+
+.loader {
+  background-color: white;
+  transition: all 3.5s;
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
